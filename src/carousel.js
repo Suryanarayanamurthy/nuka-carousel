@@ -745,7 +745,6 @@ const Carousel = React.createClass({
     return {
       position: 'relative',
       display: 'block',
-      overflow: this.props.frameOverflow,
       height: this.props.vertical ? this.state.frameWidth || 'initial' : 'auto',
       margin: this.props.framePadding,
       padding: 0,
